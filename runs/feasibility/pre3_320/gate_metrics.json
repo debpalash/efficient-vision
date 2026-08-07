@@ -1,0 +1,13 @@
+{
+  "model": "yolo26m.pt",
+  "imgsz": 320,
+  "epochs": 120,
+  "batch": 32,
+  "data": "datasets\\project-497\\yolo3_median_clahe\\data.yaml",
+  "mosaic": 0.0,
+  "scale": 0.2,
+  "map50": 0.8347918464681886,
+  "map5095": 0.6177588513643452,
+  "precision": 0.8077287170571001,
+  "recall": 0.772956496596827
+}

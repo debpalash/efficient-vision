@@ -1,0 +1,139 @@
+{
+  "weights": "C:\\Users\\user\\Desktop\\github\\efficient-vision\\runs\\feasibility\\feasibility_m_160\\weights\\best.pt",
+  "imgsz": 160,
+  "n_val_images": 907,
+  "contract_metric": "exact_match (per-image string solve rate)",
+  "by_conf": {
+    "iou0.50_conf0.10": {
+      "iou": 0.5,
+      "conf": 0.1,
+      "exact_match": 0.2933,
+      "count_match": 0.3727,
+      "too_many_boxes": 0.5921,
+      "too_few_boxes": 0.0353,
+      "cer": 0.3033,
+      "char_accuracy": 0.6967
+    },
+    "iou0.50_conf0.20": {
+      "iou": 0.5,
+      "conf": 0.2,
+      "exact_match": 0.4002,
+      "count_match": 0.5436,
+      "too_many_boxes": 0.3054,
+      "too_few_boxes": 0.151,
+      "cer": 0.1989,
+      "char_accuracy": 0.8011
+    },
+    "iou0.50_conf0.25": {
+      "iou": 0.5,
+      "conf": 0.25,
+      "exact_match": 0.4267,
+      "count_match": 0.5932,
+      "too_many_boxes": 0.1996,
+      "too_few_boxes": 0.2073,
+      "cer": 0.1868,
+      "char_accuracy": 0.8132
+    },
+    "iou0.50_conf0.30": {
+      "iou": 0.5,
+      "conf": 0.3,
+      "exact_match": 0.4311,
+      "count_match": 0.581,
+      "too_many_boxes": 0.1312,
+      "too_few_boxes": 0.2878,
+      "cer": 0.1803,
+      "char_accuracy": 0.8197
+    },
+    "iou0.50_conf0.40": {
+      "iou": 0.5,
+      "conf": 0.4,
+      "exact_match": 0.4256,
+      "count_match": 0.5281,
+      "too_many_boxes": 0.0452,
+      "too_few_boxes": 0.4267,
+      "cer": 0.1882,
+      "char_accuracy": 0.8118
+    },
+    "iou0.50_conf0.50": {
+      "iou": 0.5,
+      "conf": 0.5,
+      "exact_match": 0.344,
+      "count_match": 0.419,
+      "too_many_boxes": 0.0154,
+      "too_few_boxes": 0.5656,
+      "cer": 0.2283,
+      "char_accuracy": 0.7717
+    },
+    "iou0.70_conf0.10": {
+      "iou": 0.7,
+      "conf": 0.1,
+      "exact_match": 0.2933,
+      "count_match": 0.3727,
+      "too_many_boxes": 0.5921,
+      "too_few_boxes": 0.0353,
+      "cer": 0.3033,
+      "char_accuracy": 0.6967
+    },
+    "iou0.70_conf0.20": {
+      "iou": 0.7,
+      "conf": 0.2,
+      "exact_match": 0.4002,
+      "count_match": 0.5436,
+      "too_many_boxes": 0.3054,
+      "too_few_boxes": 0.151,
+      "cer": 0.1989,
+      "char_accuracy": 0.8011
+    },
+    "iou0.70_conf0.25": {
+      "iou": 0.7,
+      "conf": 0.25,
+      "exact_match": 0.4267,
+      "count_match": 0.5932,
+      "too_many_boxes": 0.1996,
+      "too_few_boxes": 0.2073,
+      "cer": 0.1868,
+      "char_accuracy": 0.8132
+    },
+    "iou0.70_conf0.30": {
+      "iou": 0.7,
+      "conf": 0.3,
+      "exact_match": 0.4311,
+      "count_match": 0.581,
+      "too_many_boxes": 0.1312,
+      "too_few_boxes": 0.2878,
+      "cer": 0.1803,
+      "char_accuracy": 0.8197
+    },
+    "iou0.70_conf0.40": {
+      "iou": 0.7,
+      "conf": 0.4,
+      "exact_match": 0.4256,
+      "count_match": 0.5281,
+      "too_many_boxes": 0.0452,
+      "too_few_boxes": 0.4267,
+      "cer": 0.1882,
+      "char_accuracy": 0.8118
+    },
+    "iou0.70_conf0.50": {
+      "iou": 0.7,
+      "conf": 0.5,
+      "exact_match": 0.344,
+      "count_match": 0.419,
+      "too_many_boxes": 0.0154,
+      "too_few_boxes": 0.5656,
+      "cer": 0.2283,
+      "char_accuracy": 0.7717
+    }
+  },
+  "best_conf": "iou0.50_conf0.30",
+  "best": {
+    "iou": 0.5,
+    "conf": 0.3,
+    "exact_match": 0.4311,
+    "count_match": 0.581,
+    "too_many_boxes": 0.1312,
+    "too_few_boxes": 0.2878,
+    "cer": 0.1803,
+    "char_accuracy": 0.8197
+  }
+}

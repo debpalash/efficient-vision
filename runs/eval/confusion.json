@@ -1,0 +1,195 @@
+{
+  "weights": "C:\\Users\\user\\Desktop\\github\\efficient-vision\\runs\\feasibility\\feasibility_m_160\\weights\\best.pt",
+  "conf": 0.3,
+  "matched_boxes": 3709,
+  "classification_accuracy_on_matched": 0.9658,
+  "missed_gt_boxes": 851,
+  "spurious_boxes": 623,
+  "total_confusions": 127,
+  "confusions_case_only": 29,
+  "confusions_case_only_pct": 22.8,
+  "confusions_shape_ambiguous": 38,
+  "confusions_shape_ambiguous_pct": 29.9,
+  "top_confusions": [
+    {
+      "gt": "c",
+      "pred": "C",
+      "n": 5,
+      "case_only": true
+    },
+    {
+      "gt": "1",
+      "pred": "7",
+      "n": 4,
+      "case_only": false
+    },
+    {
+      "gt": "z",
+      "pred": "Z",
+      "n": 4,
+      "case_only": true
+    },
+    {
+      "gt": "x",
+      "pred": "X",
+      "n": 3,
+      "case_only": true
+    },
+    {
+      "gt": "K",
+      "pred": "k",
+      "n": 3,
+      "case_only": true
+    },
+    {
+      "gt": "t",
+      "pred": "i",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "i",
+      "pred": "j",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "Y",
+      "pred": "y",
+      "n": 2,
+      "case_only": true
+    },
+    {
+      "gt": "o",
+      "pred": "e",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "W",
+      "pred": "M",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "p",
+      "pred": "q",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "1",
+      "pred": "I",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "T",
+      "pred": "7",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "9",
+      "pred": "g",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "Z",
+      "pred": "z",
+      "n": 2,
+      "case_only": true
+    },
+    {
+      "gt": "Y",
+      "pred": "V",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "X",
+      "pred": "x",
+      "n": 2,
+      "case_only": true
+    },
+    {
+      "gt": "O",
+      "pred": "Q",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "w",
+      "pred": "N",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "7",
+      "pred": "1",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "O",
+      "pred": "0",
+      "n": 2,
+      "case_only": false
+    },
+    {
+      "gt": "C",
+      "pred": "2",
+      "n": 1,
+      "case_only": false
+    },
+    {
+      "gt": "I",
+      "pred": "i",
+      "n": 1,
+      "case_only": true
+    },
+    {
+      "gt": "V",
+      "pred": "A",
+      "n": 1,
+      "case_only": false
+    },
+    {
+      "gt": "b",
+      "pred": "m",
+      "n": 1,
+      "case_only": false
+    },
+    {
+      "gt": "W",
+      "pred": "d",
+      "n": 1,
+      "case_only": false
+    },
+    {
+      "gt": "f",
+      "pred": "9",
+      "n": 1,
+      "case_only": false
+    },
+    {
+      "gt": "n",
+      "pred": "h",
+      "n": 1,
+      "case_only": false
+    },
+    {
+      "gt": "z",
+      "pred": "t",
+      "n": 1,
+      "case_only": false
+    },
+    {
+      "gt": "F",
+      "pred": "5",
+      "n": 1,
+      "case_only": false
+    }
+  ]
+}

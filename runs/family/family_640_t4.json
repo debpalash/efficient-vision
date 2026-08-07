@@ -1,0 +1,58 @@
+{
+  "host": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "machine": "AMD64",
+    "python": "3.11.15",
+    "onnxruntime": "1.27.0"
+  },
+  "threads": 4,
+  "imgsz": 640,
+  "rows": [
+    {
+      "model": "yolo26n",
+      "p50_ms": 129.09,
+      "fps": 7.75,
+      "onnx_mb": 9.48,
+      "params_m": 2.4,
+      "coco_map": 39.8,
+      "flagged": false
+    },
+    {
+      "model": "yolo26s",
+      "p50_ms": 407.24,
+      "fps": 2.46,
+      "onnx_mb": 36.52,
+      "params_m": 9.5,
+      "coco_map": 47.2,
+      "flagged": false
+    },
+    {
+      "model": "yolo26m",
+      "p50_ms": 1211.75,
+      "fps": 0.83,
+      "onnx_mb": 78.17,
+      "params_m": 20.4,
+      "coco_map": 51.5,
+      "flagged": false
+    },
+    {
+      "model": "yolo26l",
+      "p50_ms": 1534.02,
+      "fps": 0.65,
+      "onnx_mb": 95.0,
+      "params_m": 24.8,
+      "coco_map": 53.0,
+      "flagged": false
+    },
+    {
+      "model": "yolo26x",
+      "p50_ms": 3304.63,
+      "fps": 0.3,
+      "onnx_mb": 212.94,
+      "params_m": 56.9,
+      "coco_map": 54.9,
+      "flagged": false
+    }
+  ]
+}

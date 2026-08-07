@@ -1,0 +1,53 @@
+[project]
+name = "efficient-vision"
+version = "0.1.0"
+description = "Ultra-fast CPU vision model for multi-class classification and oriented bounding box detection"
+requires-python = ">=3.10"
+
+dependencies = [
+    "torch>=2.4",
+    "torchvision>=0.19",
+    "numpy>=1.26",
+    "opencv-python-headless>=4.10",
+    "pyyaml>=6.0",
+    "tqdm>=4.66",
+    "onnx>=1.16",
+    "onnxruntime>=1.19",
+    "onnxslim>=0.1.34",
+    # torch>=2.9's ONNX exporter routes through the dynamo path, which needs
+    # onnxscript to build the graph. Without it `torch.onnx.export` raises
+    # ModuleNotFoundError rather than falling back, so it is a hard dependency
+    # of the export pipeline, not an optional extra.
+    "onnxscript>=0.1",
+]
+
+[project.optional-dependencies]
+# Baseline comparison target. Kept optional so the core package has no
+# Ultralytics dependency -- we benchmark against YOLO26n, we don't build on it.
+baseline = ["ultralytics>=8.3"]
+# x86 deployment runtime. Not installed on ARM.
+openvino = ["openvino>=2024.4"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+# Torch must come from PyTorch's own index, not PyPI. The PyPI wheels are
+# CPU-only on Windows, which silently disables GPU training -- the failure mode
+# is a slow run, not an error, so it is worth pinning explicitly.
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["efficientvision"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

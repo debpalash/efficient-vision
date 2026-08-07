@@ -1,0 +1,87 @@
+{
+  "detector": "C:\\Users\\user\\Desktop\\github\\efficient-vision\\runs\\feasibility\\base3_320\\weights\\best.pt",
+  "classifier": "C:\\Users\\user\\Desktop\\github\\efficient-vision\\runs\\classifier\\char_cls\\best.pt",
+  "classifier_crop_val_acc": 0.8956140350877193,
+  "split": "val",
+  "n_images": 907,
+  "results": {
+    "single_standard_conf0.25": {
+      "solve_rate": 0.4983,
+      "char_accuracy": 0.8395,
+      "count_match": 0.6472,
+      "too_many_boxes": 0.1114,
+      "too_few_boxes": 0.2415
+    },
+    "single_standard_conf0.30": {
+      "solve_rate": 0.484,
+      "char_accuracy": 0.834,
+      "count_match": 0.613,
+      "too_many_boxes": 0.0717,
+      "too_few_boxes": 0.3153
+    },
+    "single_countprior_gamma0.50": {
+      "solve_rate": 0.5116,
+      "char_accuracy": 0.8544,
+      "count_match": 0.71,
+      "too_many_boxes": 0.0573,
+      "too_few_boxes": 0.2326
+    },
+    "single_countprior_gamma0.35": {
+      "solve_rate": 0.5325,
+      "char_accuracy": 0.8559,
+      "count_match": 0.7365,
+      "too_many_boxes": 0.1092,
+      "too_few_boxes": 0.1544
+    },
+    "single_countprior_gamma0.25": {
+      "solve_rate": 0.5424,
+      "char_accuracy": 0.8533,
+      "count_match": 0.7453,
+      "too_many_boxes": 0.1555,
+      "too_few_boxes": 0.0992
+    },
+    "two_stage_standard_conf0.25": {
+      "solve_rate": 0.4752,
+      "char_accuracy": 0.825,
+      "count_match": 0.6119,
+      "too_many_boxes": 0.0573,
+      "too_few_boxes": 0.3308
+    },
+    "two_stage_standard_conf0.30": {
+      "solve_rate": 0.4366,
+      "char_accuracy": 0.811,
+      "count_match": 0.5645,
+      "too_many_boxes": 0.0342,
+      "too_few_boxes": 0.4013
+    },
+    "two_stage_countprior_gamma0.50": {
+      "solve_rate": 0.4928,
+      "char_accuracy": 0.8406,
+      "count_match": 0.6902,
+      "too_many_boxes": 0.0375,
+      "too_few_boxes": 0.2723
+    },
+    "two_stage_countprior_gamma0.35": {
+      "solve_rate": 0.5248,
+      "char_accuracy": 0.8456,
+      "count_match": 0.731,
+      "too_many_boxes": 0.0871,
+      "too_few_boxes": 0.1819
+    },
+    "two_stage_countprior_gamma0.25": {
+      "solve_rate": 0.5325,
+      "char_accuracy": 0.8461,
+      "count_match": 0.7442,
+      "too_many_boxes": 0.1202,
+      "too_few_boxes": 0.1356
+    }
+  },
+  "best_config": "single_countprior_gamma0.25",
+  "best": {
+    "solve_rate": 0.5424,
+    "char_accuracy": 0.8533,
+    "count_match": 0.7453,
+    "too_many_boxes": 0.1555,
+    "too_few_boxes": 0.0992
+  }
+}

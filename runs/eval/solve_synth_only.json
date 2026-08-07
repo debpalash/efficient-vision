@@ -1,0 +1,90 @@
+{
+  "weights": "runs\\feasibility\\synth_only_v3\\weights\\best.pt",
+  "imgsz": 320,
+  "data_dir": "datasets\\experiments\\synth_only",
+  "n_val_images": 461,
+  "contract_metric": "exact_match (per-image string solve rate)",
+  "by_conf": {
+    "iou0.70_conf0.10": {
+      "iou": 0.7,
+      "conf": 0.1,
+      "exact_match": 0.1714,
+      "count_match": 0.3709,
+      "too_many_boxes": 0.5423,
+      "too_few_boxes": 0.0868,
+      "cer": 0.3384,
+      "char_accuracy": 0.6616
+    },
+    "iou0.70_conf0.20": {
+      "iou": 0.7,
+      "conf": 0.2,
+      "exact_match": 0.2126,
+      "count_match": 0.5184,
+      "too_many_boxes": 0.269,
+      "too_few_boxes": 0.2126,
+      "cer": 0.2764,
+      "char_accuracy": 0.7236
+    },
+    "iou0.70_conf0.25": {
+      "iou": 0.7,
+      "conf": 0.25,
+      "exact_match": 0.2256,
+      "count_match": 0.538,
+      "too_many_boxes": 0.1866,
+      "too_few_boxes": 0.2755,
+      "cer": 0.2629,
+      "char_accuracy": 0.7371
+    },
+    "iou0.70_conf0.30": {
+      "iou": 0.7,
+      "conf": 0.3,
+      "exact_match": 0.2278,
+      "count_match": 0.5488,
+      "too_many_boxes": 0.1171,
+      "too_few_boxes": 0.3341,
+      "cer": 0.2577,
+      "char_accuracy": 0.7423
+    },
+    "iou0.70_conf0.40": {
+      "iou": 0.7,
+      "conf": 0.4,
+      "exact_match": 0.2061,
+      "count_match": 0.4837,
+      "too_many_boxes": 0.0325,
+      "too_few_boxes": 0.4837,
+      "cer": 0.2655,
+      "char_accuracy": 0.7345
+    },
+    "iou0.70_conf0.50": {
+      "iou": 0.7,
+      "conf": 0.5,
+      "exact_match": 0.1584,
+      "count_match": 0.3601,
+      "too_many_boxes": 0.013,
+      "too_few_boxes": 0.6269,
+      "cer": 0.2937,
+      "char_accuracy": 0.7063
+    },
+    "iou0.70_conf0.60": {
+      "iou": 0.7,
+      "conf": 0.6,
+      "exact_match": 0.115,
+      "count_match": 0.2473,
+      "too_many_boxes": 0.0022,
+      "too_few_boxes": 0.7505,
+      "cer": 0.318,
+      "char_accuracy": 0.682
+    }
+  },
+  "best_conf": "iou0.70_conf0.30",
+  "best": {
+    "iou": 0.7,
+    "conf": 0.3,
+    "exact_match": 0.2278,
+    "count_match": 0.5488,
+    "too_many_boxes": 0.1171,
+    "too_few_boxes": 0.3341,
+    "cer": 0.2577,
+    "char_accuracy": 0.7423
+  }
+}

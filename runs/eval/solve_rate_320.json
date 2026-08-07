@@ -1,0 +1,59 @@
+{
+  "weights": "runs/feasibility/feasibility_m_320/weights/best.pt",
+  "imgsz": 320,
+  "n_val_images": 907,
+  "contract_metric": "exact_match (per-image string solve rate)",
+  "by_conf": {
+    "iou0.50_conf0.20": {
+      "iou": 0.5,
+      "conf": 0.2,
+      "exact_match": 0.3175,
+      "count_match": 0.419,
+      "too_many_boxes": 0.5325,
+      "too_few_boxes": 0.0485,
+      "cer": 0.25,
+      "char_accuracy": 0.75
+    },
+    "iou0.50_conf0.25": {
+      "iou": 0.5,
+      "conf": 0.25,
+      "exact_match": 0.3771,
+      "count_match": 0.5138,
+      "too_many_boxes": 0.4046,
+      "too_few_boxes": 0.0816,
+      "cer": 0.2094,
+      "char_accuracy": 0.7906
+    },
+    "iou0.50_conf0.30": {
+      "iou": 0.5,
+      "conf": 0.3,
+      "exact_match": 0.4223,
+      "count_match": 0.5667,
+      "too_many_boxes": 0.2955,
+      "too_few_boxes": 0.1378,
+      "cer": 0.1822,
+      "char_accuracy": 0.8178
+    },
+    "iou0.50_conf0.40": {
+      "iou": 0.5,
+      "conf": 0.4,
+      "exact_match": 0.441,
+      "count_match": 0.5733,
+      "too_many_boxes": 0.1312,
+      "too_few_boxes": 0.2955,
+      "cer": 0.1781,
+      "char_accuracy": 0.8219
+    }
+  },
+  "best_conf": "iou0.50_conf0.40",
+  "best": {
+    "iou": 0.5,
+    "conf": 0.4,
+    "exact_match": 0.441,
+    "count_match": 0.5733,
+    "too_many_boxes": 0.1312,
+    "too_few_boxes": 0.2955,
+    "cer": 0.1781,
+    "char_accuracy": 0.8219
+  }
+}

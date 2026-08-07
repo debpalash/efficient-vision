@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Datasets are large and are rebuilt by scripts/build_split.py from the raw
+# Label Studio export. Only the export archive and the build script are the
+# source of truth; the derived split tree is not committed.
+datasets/
+
+# Pretrained teacher weights, downloaded on demand by Ultralytics.
+yolo26*.pt
+
+# Training artifacts. Per CLAUDE.md, measurement JSON under runs/ IS tracked so a
+# report can be traced back to the run that produced it -- but checkpoints,
+# caches and plots are not.
+runs/**/weights/
+runs/**/*.pt
+runs/**/*.onnx
+runs/**/*.jpg
+runs/**/*.png
+runs/**/*.cache

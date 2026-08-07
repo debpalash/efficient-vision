@@ -1,0 +1,25 @@
+{
+  "host": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "machine": "AMD64",
+    "python": "3.11.15",
+    "onnxruntime": "1.27.0"
+  },
+  "imgsz": 640,
+  "result": {
+    "name": "yolo26n@640",
+    "p50_ms": 148.6949999962235,
+    "p90_ms": 153.8455999980215,
+    "p99_ms": 167.68850000516977,
+    "mean_ms": 148.9659069992922,
+    "stdev_ms": 4.33577915171226,
+    "fps": 6.7251756953858415,
+    "model_mb": 9.48143482208252,
+    "threads": 4,
+    "iterations": 200,
+    "throttle_drift": -0.006342488299543506,
+    "warnings": [],
+    "trustworthy": true
+  }
+}

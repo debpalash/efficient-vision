@@ -1,0 +1,52 @@
+{
+  "300x100": {
+    "n_val": 258,
+    "solve_rate": 0.469,
+    "char_accuracy": 0.86
+  },
+  "280x54": {
+    "n_val": 161,
+    "solve_rate": 0.509,
+    "char_accuracy": 0.838
+  },
+  "200x65": {
+    "n_val": 85,
+    "solve_rate": 0.235,
+    "char_accuracy": 0.703
+  },
+  "250x100": {
+    "n_val": 69,
+    "solve_rate": 0.841,
+    "char_accuracy": 0.95
+  },
+  "230x60": {
+    "n_val": 61,
+    "solve_rate": 0.164,
+    "char_accuracy": 0.738
+  },
+  "300x75": {
+    "n_val": 61,
+    "solve_rate": 0.18,
+    "char_accuracy": 0.669
+  },
+  "150x50": {
+    "n_val": 58,
+    "solve_rate": 0.569,
+    "char_accuracy": 0.893
+  },
+  "225x85": {
+    "n_val": 47,
+    "solve_rate": 0.596,
+    "char_accuracy": 0.906
+  },
+  "220x80": {
+    "n_val": 41,
+    "solve_rate": 0.732,
+    "char_accuracy": 0.897
+  },
+  "180x50": {
+    "n_val": 32,
+    "solve_rate": 0.188,
+    "char_accuracy": 0.766
+  }
+}

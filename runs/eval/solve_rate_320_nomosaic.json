@@ -1,0 +1,90 @@
+{
+  "weights": "runs\\feasibility\\feasibility_m_320_nomosaic\\weights\\best.pt",
+  "imgsz": 320,
+  "data_dir": "C:\\Users\\user\\Desktop\\github\\efficient-vision\\datasets\\project-497\\yolo",
+  "n_val_images": 907,
+  "contract_metric": "exact_match (per-image string solve rate)",
+  "by_conf": {
+    "iou0.70_conf0.10": {
+      "iou": 0.7,
+      "conf": 0.1,
+      "exact_match": 0.2811,
+      "count_match": 0.3407,
+      "too_many_boxes": 0.6417,
+      "too_few_boxes": 0.0176,
+      "cer": 0.3136,
+      "char_accuracy": 0.6864
+    },
+    "iou0.70_conf0.20": {
+      "iou": 0.7,
+      "conf": 0.2,
+      "exact_match": 0.4278,
+      "count_match": 0.5358,
+      "too_many_boxes": 0.4002,
+      "too_few_boxes": 0.0639,
+      "cer": 0.1952,
+      "char_accuracy": 0.8048
+    },
+    "iou0.70_conf0.25": {
+      "iou": 0.7,
+      "conf": 0.25,
+      "exact_match": 0.4763,
+      "count_match": 0.5976,
+      "too_many_boxes": 0.3087,
+      "too_few_boxes": 0.0937,
+      "cer": 0.1717,
+      "char_accuracy": 0.8283
+    },
+    "iou0.70_conf0.30": {
+      "iou": 0.7,
+      "conf": 0.3,
+      "exact_match": 0.5028,
+      "count_match": 0.6373,
+      "too_many_boxes": 0.2293,
+      "too_few_boxes": 0.1334,
+      "cer": 0.1603,
+      "char_accuracy": 0.8397
+    },
+    "iou0.70_conf0.40": {
+      "iou": 0.7,
+      "conf": 0.4,
+      "exact_match": 0.5072,
+      "count_match": 0.6505,
+      "too_many_boxes": 0.0948,
+      "too_few_boxes": 0.2547,
+      "cer": 0.1588,
+      "char_accuracy": 0.8412
+    },
+    "iou0.70_conf0.50": {
+      "iou": 0.7,
+      "conf": 0.5,
+      "exact_match": 0.441,
+      "count_match": 0.5579,
+      "too_many_boxes": 0.0507,
+      "too_few_boxes": 0.3914,
+      "cer": 0.1864,
+      "char_accuracy": 0.8136
+    },
+    "iou0.70_conf0.60": {
+      "iou": 0.7,
+      "conf": 0.6,
+      "exact_match": 0.3716,
+      "count_match": 0.4531,
+      "too_many_boxes": 0.0176,
+      "too_few_boxes": 0.5292,
+      "cer": 0.2224,
+      "char_accuracy": 0.7776
+    }
+  },
+  "best_conf": "iou0.70_conf0.40",
+  "best": {
+    "iou": 0.7,
+    "conf": 0.4,
+    "exact_match": 0.5072,
+    "count_match": 0.6505,
+    "too_many_boxes": 0.0948,
+    "too_few_boxes": 0.2547,
+    "cer": 0.1588,
+    "char_accuracy": 0.8412
+  }
+}

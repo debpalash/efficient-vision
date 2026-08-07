@@ -1,0 +1,18 @@
+{
+  "note": "weight-distribution comparison only; not an accuracy measurement",
+  "verdict": "INCONCLUSIVE \u2014 randomly-initialized blocks on random data do not reproduce the published gap. Too weak to validate or refute QARepVGG. Re-run on trained weights during task #13.",
+  "channels": 64,
+  "qarepvgg": {
+    "max_abs": 0.9913204312324524,
+    "mean_abs": 0.028054527938365936,
+    "outlier_ratio": 35.335487365722656,
+    "rel_l2_error": 0.04983915388584137
+  },
+  "repvgg_legacy": {
+    "max_abs": 1.739448070526123,
+    "mean_abs": 0.045859552919864655,
+    "outlier_ratio": 37.92989730834961,
+    "rel_l2_error": 0.05138809233903885
+  },
+  "error_ratio_legacy_over_qa": 1.031078746977635
+}

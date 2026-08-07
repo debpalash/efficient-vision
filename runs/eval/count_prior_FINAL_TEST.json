@@ -1,0 +1,54 @@
+{
+  "weights": "runs\\feasibility\\base3_320\\weights\\best.pt",
+  "split": "test",
+  "n_images": 907,
+  "count_prior_support": {
+    "3": 0.0303,
+    "4": 0.2075,
+    "5": 0.4169,
+    "6": 0.3417,
+    "7": 0.0037
+  },
+  "best_standard": {
+    "solve_rate": 0.4972,
+    "char_accuracy": 0.8455,
+    "count_match": 0.6461,
+    "too_many_boxes": 0.1191,
+    "too_few_boxes": 0.2348
+  },
+  "count_prior": {
+    "solve_rate": 0.5436,
+    "char_accuracy": 0.8622,
+    "count_match": 0.7519,
+    "too_many_boxes": 0.1533,
+    "too_few_boxes": 0.0948
+  },
+  "delta_solve_rate": 0.0464,
+  "all": {
+    "standard": {
+      "conf0.25": {
+        "solve_rate": 0.4972,
+        "char_accuracy": 0.8455,
+        "count_match": 0.6461,
+        "too_many_boxes": 0.1191,
+        "too_few_boxes": 0.2348
+      },
+      "conf0.30": {
+        "solve_rate": 0.4818,
+        "char_accuracy": 0.8368,
+        "count_match": 0.6196,
+        "too_many_boxes": 0.0794,
+        "too_few_boxes": 0.301
+      }
+    },
+    "count_prior": {
+      "gamma0.25": {
+        "solve_rate": 0.5436,
+        "char_accuracy": 0.8622,
+        "count_match": 0.7519,
+        "too_many_boxes": 0.1533,
+        "too_few_boxes": 0.0948
+      }
+    }
+  }
+}

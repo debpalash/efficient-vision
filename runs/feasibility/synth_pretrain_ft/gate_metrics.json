@@ -1,0 +1,13 @@
+{
+  "model": "runs\\feasibility\\synth_only_v3\\weights\\best.pt",
+  "imgsz": 320,
+  "epochs": 300,
+  "batch": 32,
+  "data": "datasets\\project-497\\src_230x60\\data.yaml",
+  "mosaic": 0.0,
+  "scale": 0.2,
+  "map50": 0.7686308614135907,
+  "map5095": 0.5906243759788148,
+  "precision": 0.6935218461640182,
+  "recall": 0.7145778087645022
+}

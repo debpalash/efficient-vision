@@ -1,0 +1,49 @@
+{
+  "weights": "C:\\Users\\user\\Desktop\\github\\efficient-vision\\runs\\feasibility\\feasibility_m_160\\weights\\best.pt",
+  "imgsz": 160,
+  "n_val_images": 40,
+  "contract_metric": "exact_match (per-image string solve rate)",
+  "by_conf": {
+    "iou0.30_conf0.25": {
+      "iou": 0.3,
+      "conf": 0.25,
+      "exact_match": 0.325,
+      "count_match": 0.55,
+      "too_many_boxes": 0.275,
+      "too_few_boxes": 0.175,
+      "cer": 0.2132,
+      "char_accuracy": 0.7868
+    },
+    "iou0.50_conf0.25": {
+      "iou": 0.5,
+      "conf": 0.25,
+      "exact_match": 0.325,
+      "count_match": 0.55,
+      "too_many_boxes": 0.275,
+      "too_few_boxes": 0.175,
+      "cer": 0.2132,
+      "char_accuracy": 0.7868
+    },
+    "iou0.70_conf0.25": {
+      "iou": 0.7,
+      "conf": 0.25,
+      "exact_match": 0.325,
+      "count_match": 0.55,
+      "too_many_boxes": 0.275,
+      "too_few_boxes": 0.175,
+      "cer": 0.2132,
+      "char_accuracy": 0.7868
+    }
+  },
+  "best_conf": "iou0.30_conf0.25",
+  "best": {
+    "iou": 0.3,
+    "conf": 0.25,
+    "exact_match": 0.325,
+    "count_match": 0.55,
+    "too_many_boxes": 0.275,
+    "too_few_boxes": 0.175,
+    "cer": 0.2132,
+    "char_accuracy": 0.7868
+  }
+}

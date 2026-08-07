@@ -1,0 +1,15 @@
+iou=0.50 conf=0.20  solve=0.3175  char_acc=0.7500  count=0.4190  over=0.533 under=0.049
+iou=0.50 conf=0.25  solve=0.3771  char_acc=0.7906  count=0.5138  over=0.405 under=0.082
+iou=0.50 conf=0.30  solve=0.4223  char_acc=0.8178  count=0.5667  over=0.295 under=0.138
+iou=0.50 conf=0.40  solve=0.4410  char_acc=0.8219  count=0.5733  over=0.131 under=0.295
+
+BEST: {
+  "conf": 0.4,
+  "iou": 0.5,
+  "exact_match": 0.441,
+  "count_match": 0.5733,
+  "too_many_boxes": 0.1312,
+  "too_few_boxes": 0.2955,
+  "cer": 0.1781,
+  "char_accuracy": 0.8219
+}

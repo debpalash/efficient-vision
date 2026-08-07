@@ -1,0 +1,11 @@
+{
+  "model": "yolo26m.pt",
+  "imgsz": 320,
+  "epochs": 300,
+  "batch": 32,
+  "data": "datasets\\project-497\\src_230x60\\data.yaml",
+  "map50": 0.7669043920508573,
+  "map5095": 0.5986897140568338,
+  "precision": 0.7323286606422472,
+  "recall": 0.7022690500928324
+}

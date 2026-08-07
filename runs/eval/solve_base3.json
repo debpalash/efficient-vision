@@ -1,0 +1,90 @@
+{
+  "weights": "runs\\feasibility\\base3_320\\weights\\best.pt",
+  "imgsz": 320,
+  "data_dir": "datasets\\project-497\\yolo3",
+  "n_val_images": 907,
+  "contract_metric": "exact_match (per-image string solve rate)",
+  "by_conf": {
+    "iou0.70_conf0.10": {
+      "iou": 0.7,
+      "conf": 0.1,
+      "exact_match": 0.2227,
+      "count_match": 0.2922,
+      "too_many_boxes": 0.6748,
+      "too_few_boxes": 0.0331,
+      "cer": 0.3417,
+      "char_accuracy": 0.6583
+    },
+    "iou0.70_conf0.20": {
+      "iou": 0.7,
+      "conf": 0.2,
+      "exact_match": 0.3594,
+      "count_match": 0.5105,
+      "too_many_boxes": 0.3583,
+      "too_few_boxes": 0.1312,
+      "cer": 0.214,
+      "char_accuracy": 0.786
+    },
+    "iou0.70_conf0.25": {
+      "iou": 0.7,
+      "conf": 0.25,
+      "exact_match": 0.4013,
+      "count_match": 0.5568,
+      "too_many_boxes": 0.237,
+      "too_few_boxes": 0.2062,
+      "cer": 0.1928,
+      "char_accuracy": 0.8072
+    },
+    "iou0.70_conf0.30": {
+      "iou": 0.7,
+      "conf": 0.3,
+      "exact_match": 0.4123,
+      "count_match": 0.548,
+      "too_many_boxes": 0.1654,
+      "too_few_boxes": 0.2867,
+      "cer": 0.1882,
+      "char_accuracy": 0.8118
+    },
+    "iou0.70_conf0.40": {
+      "iou": 0.7,
+      "conf": 0.4,
+      "exact_match": 0.3848,
+      "count_match": 0.4917,
+      "too_many_boxes": 0.0695,
+      "too_few_boxes": 0.4388,
+      "cer": 0.2044,
+      "char_accuracy": 0.7956
+    },
+    "iou0.70_conf0.50": {
+      "iou": 0.7,
+      "conf": 0.5,
+      "exact_match": 0.3319,
+      "count_match": 0.4135,
+      "too_many_boxes": 0.0298,
+      "too_few_boxes": 0.5568,
+      "cer": 0.2395,
+      "char_accuracy": 0.7605
+    },
+    "iou0.70_conf0.60": {
+      "iou": 0.7,
+      "conf": 0.6,
+      "exact_match": 0.2591,
+      "count_match": 0.3164,
+      "too_many_boxes": 0.0044,
+      "too_few_boxes": 0.6792,
+      "cer": 0.2928,
+      "char_accuracy": 0.7072
+    }
+  },
+  "best_conf": "iou0.70_conf0.30",
+  "best": {
+    "iou": 0.7,
+    "conf": 0.3,
+    "exact_match": 0.4123,
+    "count_match": 0.548,
+    "too_many_boxes": 0.1654,
+    "too_few_boxes": 0.2867,
+    "cer": 0.1882,
+    "char_accuracy": 0.8118
+  }
+}

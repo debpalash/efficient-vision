@@ -1,0 +1,13 @@
+{
+  "model": "yolo26m.pt",
+  "imgsz": 320,
+  "epochs": 12,
+  "batch": 32,
+  "data": "datasets\\experiments\\mixed\\data.yaml",
+  "mosaic": 0.0,
+  "scale": 0.2,
+  "map50": 0.7531802598220708,
+  "map5095": 0.5684711291717851,
+  "precision": 0.7067434362972788,
+  "recall": 0.7035887343675994
+}

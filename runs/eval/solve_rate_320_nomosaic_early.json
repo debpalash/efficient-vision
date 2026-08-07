@@ -1,0 +1,50 @@
+{
+  "weights": "C:\\Users\\user\\AppData\\Local\\Temp\\gate_snapshot.pt",
+  "imgsz": 320,
+  "data_dir": "C:\\Users\\user\\Desktop\\github\\efficient-vision\\datasets\\project-497\\yolo",
+  "n_val_images": 907,
+  "contract_metric": "exact_match (per-image string solve rate)",
+  "by_conf": {
+    "iou0.70_conf0.25": {
+      "iou": 0.7,
+      "conf": 0.25,
+      "exact_match": 0.4774,
+      "count_match": 0.5987,
+      "too_many_boxes": 0.3076,
+      "too_few_boxes": 0.0937,
+      "cer": 0.1715,
+      "char_accuracy": 0.8285
+    },
+    "iou0.70_conf0.30": {
+      "iou": 0.7,
+      "conf": 0.3,
+      "exact_match": 0.5017,
+      "count_match": 0.6351,
+      "too_many_boxes": 0.2304,
+      "too_few_boxes": 0.1345,
+      "cer": 0.1605,
+      "char_accuracy": 0.8395
+    },
+    "iou0.70_conf0.40": {
+      "iou": 0.7,
+      "conf": 0.4,
+      "exact_match": 0.5061,
+      "count_match": 0.6494,
+      "too_many_boxes": 0.0959,
+      "too_few_boxes": 0.2547,
+      "cer": 0.159,
+      "char_accuracy": 0.841
+    }
+  },
+  "best_conf": "iou0.70_conf0.40",
+  "best": {
+    "iou": 0.7,
+    "conf": 0.4,
+    "exact_match": 0.5061,
+    "count_match": 0.6494,
+    "too_many_boxes": 0.0959,
+    "too_few_boxes": 0.2547,
+    "cer": 0.159,
+    "char_accuracy": 0.841
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "weights": "runs\\feasibility\\res448\\weights\\best.pt",
+  "split": "val",
+  "n_images": 907,
+  "count_prior_support": {
+    "3": 0.0303,
+    "4": 0.2075,
+    "5": 0.4169,
+    "6": 0.3417,
+    "7": 0.0037
+  },
+  "best_standard": {
+    "solve_rate": 0.4972,
+    "char_accuracy": 0.8421,
+    "count_match": 0.6549,
+    "too_many_boxes": 0.1092,
+    "too_few_boxes": 0.2359
+  },
+  "count_prior": {
+    "solve_rate": 0.5281,
+    "char_accuracy": 0.8572,
+    "count_match": 0.7497,
+    "too_many_boxes": 0.1389,
+    "too_few_boxes": 0.1114
+  },
+  "delta_solve_rate": 0.0309,
+  "all": {
+    "standard": {
+      "conf0.25": {
+        "solve_rate": 0.4939,
+        "char_accuracy": 0.8425,
+        "count_match": 0.6516,
+        "too_many_boxes": 0.1742,
+        "too_few_boxes": 0.1742
+      },
+      "conf0.30": {
+        "solve_rate": 0.4972,
+        "char_accuracy": 0.8421,
+        "count_match": 0.6549,
+        "too_many_boxes": 0.1092,
+        "too_few_boxes": 0.2359
+      },
+      "conf0.40": {
+        "solve_rate": 0.4366,
+        "char_accuracy": 0.8202,
+        "count_match": 0.559,
+        "too_many_boxes": 0.0441,
+        "too_few_boxes": 0.3969
+      }
+    },
+    "count_prior": {
+      "gamma1.00": {
+        "solve_rate": 0.4179,
+        "char_accuracy": 0.8314,
+        "count_match": 0.5546,
+        "too_many_boxes": 0.0143,
+        "too_few_boxes": 0.4311
+      },
+      "gamma0.70": {
+        "solve_rate": 0.4851,
+        "char_accuracy": 0.8493,
+        "count_match": 0.6681,
+        "too_many_boxes": 0.043,
+        "too_few_boxes": 0.2889
+      },
+      "gamma0.50": {
+        "solve_rate": 0.5248,
+        "char_accuracy": 0.8557,
+        "count_match": 0.7189,
+        "too_many_boxes": 0.0871,
+        "too_few_boxes": 0.194
+      },
+      "gamma0.35": {
+        "solve_rate": 0.5281,
+        "char_accuracy": 0.8572,
+        "count_match": 0.7497,
+        "too_many_boxes": 0.1389,
+        "too_few_boxes": 0.1114
+      },
+      "gamma0.25": {
+        "solve_rate": 0.5171,
+        "char_accuracy": 0.8515,
+        "count_match": 0.7332,
+        "too_many_boxes": 0.1852,
+        "too_few_boxes": 0.0816
+      },
+      "gamma0.15": {
+        "solve_rate": 0.4906,
+        "char_accuracy": 0.8393,
+        "count_match": 0.7001,
+        "too_many_boxes": 0.2514,
+        "too_few_boxes": 0.0485
+      }
+    }
+  }
+}
